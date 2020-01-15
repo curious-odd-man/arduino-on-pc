@@ -14,4 +14,9 @@ Additional target: Additionally it allows use of FastLED.
 4. Add 'Arduino/includes' and 'FastLED/includes' into includes
 5. Compile and run.
 
+# Features
+
+- Set custom value provider for each input pin. Example `g_InputProvider.setPinFunction(A0, oscilatingRange);` in `main.cpp`
+
+
 
