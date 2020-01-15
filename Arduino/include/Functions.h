@@ -10,6 +10,8 @@
 
 #include <sys/time.h>
 #include <random>
+#include <chrono>
+#include <thread>
 
 
 template<class T>
@@ -31,7 +33,7 @@ inline int random(int a, int b) {
 }
 
 inline void delay(int ms) {
-	// TODO: implement
+    std::this_thread::sleep_for(std::chrono::milliseconds(ms));
 }
 
 inline void randomSeed(int v) {

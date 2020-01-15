@@ -5,9 +5,11 @@
 #include <stdint.h>
 #include <stdio.h>
 
+#include "ArduinoConstants.h"
 #include "SerialImpl.h"
 #include "Functions.h"
 #include "InputProvider.h"
+
 
 void setup();
 void loop();
