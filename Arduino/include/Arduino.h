@@ -9,6 +9,7 @@
 #include "SerialImpl.h"
 #include "Functions.h"
 #include "InputProvider.h"
+#include "JavaComm.h"
 
 
 void setup();
